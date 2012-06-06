@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+		    <RadioButton
+		        android:id="@+id/radioButton1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtVistaPrevia" />
+		    <RadioButton
+		        android:id="@+id/radbtnFull"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtImagenCompleta" />
+		    <RadioButton
+		        android:id="@+id/radbtnGall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/txtObtenerGaleria" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="vertical" >
+    <Button
+        android:id="@+id/btnPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnObtener" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+</LinearLayout>

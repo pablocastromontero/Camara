@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MoverImagenActivity!</string>
+    <string name="app_name">Cámara</string>
+    <string name="txtVistaPrevia">Tomar Vista Previa</string>
+    <string name="txtImagenCompleta">Tomar Imágen Completa</string>
+    <string name="txtObtenerGaleria">Obtener de la Galeria</string>
+    <string name="btnObtener">Obtener</string>
+
+</resources>
